@@ -1,0 +1,46 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"deploy": {
+			"packages":[
+				{
+					"name":"stds ver 001",
+					"description": "Package for a transfer ver of studysnami website",
+					"files":[
+						"**/*.php",
+						"**/*.js",
+						"**/*.txt"
+					],
+					"deployOnSave": true,
+
+				}
+			],
+			"targets": [
+				{
+					"type":"sftp",
+					"name":"STDS transfer",
+					"description":"Transfer or test folder for stds",
+					"dir":"/",
+					"host":"tab4lioz.beget.tech",
+					"port":22,
+					"user":"tab4lioz_transfer",
+					"password":"TrtrL5.z",
+					"checkBeforeDeploy": true,
+					"mappings":[
+						{
+							"source":"/",
+							"target":"/home/t/tab4lioz/transfer/public_html/"
+						}
+					],
+				},
+			]
+		},
+		"php.validate.executablePath":"C:/php/php.exe",
+		"php.suggest.basic":false,
+		"php-cs-fixer.allowRisky":true
+	}
+}

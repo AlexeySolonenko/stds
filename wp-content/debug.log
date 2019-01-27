@@ -1,0 +1,2 @@
+[15-Oct-2018 19:30:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/t/tab4lioz/transfer/public_html/wp-content/themes/wp-bootstrap-starter-child/stds/BeControllers/ManageFrontPageController.php on line 9
+[15-Oct-2018 19:33:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/t/tab4lioz/transfer/public_html/wp-content/themes/wp-bootstrap-starter-child/stds/BeControllers/ManageFrontPageController.php on line 9
